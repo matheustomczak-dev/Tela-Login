@@ -15,7 +15,7 @@ document.getElementById("form-login").onsubmit = (e) => {
 
     let email = document.getElementById("email").value;
     let senha = document.getElementById("senha").value;
-    -let mensagem = document.getElementById("mensagem");
+    let mensagem = document.getElementById("mensagem");
 
     mensagem.innerHTML = "";
 
